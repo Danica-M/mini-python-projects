@@ -1,0 +1,25 @@
+<!DOCTYPE html5>
+<html lang="en">
+<head>
+  <title>URL Shortener</title>
+  <link rel="stylesheet" href="../us-style.css">
+</head>
+<body>
+  <h1>URL Shortener</h1>
+  <form method="post" action="/">
+    <label for="url">Enter an https:// URL:</label>
+    <input type="url"
+      name="url"
+      id="url"
+      placeholder="https://www.xyz.com"
+      pattern="https://.*" size="50"
+        value="{{old_url}}"
+      required  
+    >
+    <button type="submit" value="submit">Submit</button>
+    <br>
+    <label>Generated URL: </label>
+    <input name="generated_url" value="{{new_url}}" ></input>
+  </form>
+</body>
+</html>
