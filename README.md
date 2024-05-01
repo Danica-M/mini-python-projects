@@ -9,5 +9,6 @@ This repository contains a collection of mini python projects that i worked on p
 - Number Guessing Game
 - Text to Speech
 - Password Generator
+- Url Shortener
 
 
