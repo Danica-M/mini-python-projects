@@ -1,12 +1,9 @@
 import string
 import random
 
-def generatePass() :
+def generatePass(password_length) :
     #ensuring that the password contains different types of characters
     characters = string.ascii_letters + string.digits + string.punctuation
-
-    #Ask user the length of password they prefer
-    password_length = int(input("Enter desired password length: "))
 
     password = []
  
@@ -26,7 +23,9 @@ def generatePass() :
 
 #allows user to regenerate a password
 while True:
-    generatePass()
+    #Ask user the length of password they prefer
+    password_length = int(input("Enter desired password length: "))
+    generatePass(password_length)
     again = str(input("Generate another password? Y/N: "))
     if again.upper() == "N":
         break

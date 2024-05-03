@@ -10,5 +10,6 @@ This repository contains a collection of mini python projects that i worked on p
 - Text to Speech
 - Password Generator
 - Url Shortener
+- Sentiment Analyser
 
 
