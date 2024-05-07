@@ -12,5 +12,6 @@ This repository contains a collection of mini python projects that i worked on p
 - Url Shortener
 - Sentiment Analyser
 - Temperature Converter
+- QR Code Generator
 
 
