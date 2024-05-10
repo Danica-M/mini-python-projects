@@ -1,4 +1,13 @@
 /* Colour pairings */
+.navbar{
+  display: block;
+}
+
+.navbar a{
+  width: 30px;
+  height: 20px;
+  background-color: #ffffff;
+}
 
 .primary {
     background: var(--primary);
