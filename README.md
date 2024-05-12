@@ -14,5 +14,6 @@ This repository contains a collection of mini python projects that i worked on p
 - Temperature Converter
 - QR Code Generator
 - Weather Forecast
+- Web Server 
 
 
