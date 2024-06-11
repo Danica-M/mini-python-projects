@@ -16,5 +16,6 @@ This repository contains a collection of mini python projects that i worked on p
 - Weather Forecast
 - Web Server 
 - BMI Calculator
+- Crack The Code Game
 
 
